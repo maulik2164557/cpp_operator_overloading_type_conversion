@@ -36,9 +36,13 @@ This repository explores **complex type conversion and operator overloading in C
 ### 📌 Key Insights
 
 🔄 Feature	Summary
+
 operator TYPE()	                -   Used for implicit/explicit casting between user-defined types
+
 Conversion Constructor	        -   Helps create a target type from a source, e.g., USD(INR)
+
 Multiple Valid Conversions	    -   Can lead to ambiguity — constructor vs conversion operator
+
 Best Practice	                  -   Use only one method of conversion at a time to avoid ambiguity
 
 
